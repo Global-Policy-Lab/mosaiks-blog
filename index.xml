@@ -45,7 +45,7 @@
 </section>
 <section id="an-hdi-dataset-at-municipal-adm2-resolution" class="level2">
 <h2 class="anchored" data-anchor-id="an-hdi-dataset-at-municipal-adm2-resolution">An HDI dataset at municipal (ADM2) resolution</h2>
-<p>The map below shows the coarse level of data that was used to train the model and the much finer resolution dataset that we are able to produce using the auxillary satellite imagery. Specifically, the top row shows HDI at provincial (ADM1) resolution, as computed directly from raw survey data by <a href="https://www.nature.com/articles/sdata201938" target="_blank" rel="noopener noreferrer">Smits and Permanyer</a>. The bottom row shows the finer-resolution global gridded dataset — about 819,000 tiles — that we produce in this research. Gray areas mark unsettled land.</p>
+<p>The map below shows the coarse level of data that was used to train the model and the much finer resolution dataset that we are able to produce using the auxillary satellite imagery. Specifically, the top row shows HDI at provincial (ADM1) resolution, as computed directly from raw survey data by <a href="https://www.nature.com/articles/sdata201938" target="_blank" rel="noopener noreferrer">Smits and Permanyer</a>. The bottom row shows the finer-resolution global gridded dataset — about 819,000 tiles — that we produce in this research.</p>
 <p><br></p>
 <p><b>Province-level HDI (top) versus grid-level HDI at roughly 10km resolution (bottom).</b> <img src="blog.mosaiks.org/posts/hdi-downscaling/press_release_image_3zooms.jpg" class="img-fluid"></p>
 
@@ -56,6 +56,7 @@
   <category>earth embeddings</category>
   <category>downscaling</category>
   <category>human development</category>
+  <category>RCF</category>
   <guid>blog.mosaiks.org/posts/hdi-downscaling/</guid>
   <pubDate>Fri, 07 Aug 2026 06:00:00 GMT</pubDate>
 </item>

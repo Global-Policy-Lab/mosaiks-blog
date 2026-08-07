@@ -11,4 +11,4 @@ page-layout: full
 title-block-banner: false
 ---
 
-![](banner.jpg){.home-banner}
+![](banner.svg){.home-banner}

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-website-url.example.com/about.html</loc>
-    <lastmod>2026-08-06T20:15:56.126Z</lastmod>
+    <loc>blog.mosaiks.org/about.html</loc>
+    <lastmod>2026-08-07T20:15:54.216Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/posts/welcome/index.html</loc>
-    <lastmod>2026-08-06T20:15:56.124Z</lastmod>
+    <loc>blog.mosaiks.org/posts/welcome/index.html</loc>
+    <lastmod>2026-08-07T20:15:54.234Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/posts/post-with-code/index.html</loc>
-    <lastmod>2026-08-06T20:15:56.126Z</lastmod>
+    <loc>blog.mosaiks.org/posts/hdi-downscaling/index.html</loc>
+    <lastmod>2026-08-07T20:27:11.414Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2026-08-06T20:15:56.124Z</lastmod>
+    <loc>blog.mosaiks.org/index.html</loc>
+    <lastmod>2026-08-07T20:46:47.488Z</lastmod>
   </url>
 </urlset>

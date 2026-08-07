@@ -4,16 +4,10 @@ image: profile.jpg
 about:
   template: jolla
   links:
-    - icon: bluesky
-      text: Bluesky
-      href: https://bsky.app/
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/global-policy-lab
 
 ---
 
-About this blog
+This blog is operated as part of a cross-campus collaboration of researchers using satellite imagery to better understand our planet. See <a href="https://mosaiks.org" target="blank" >MOSAIKS.org</a> for more information.

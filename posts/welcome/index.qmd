@@ -1,12 +1,22 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
+title: "Welcome to The MOSAIKS Blog"
+author: "Luke Sherman"
 date: "2026-08-03"
-categories: [news]
+categories: [earth embeddings, RCF]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+In 2021, we published <a href="https://www.nature.com/articles/s41467-021-24638-z" target="_blank" rel="noopener noreferrer">a conceptually novel paper</a> explaining how satellite imagery can be represented in vector format where details around image structure are contained by a set of features. This allows for a one-time, task-agnostic encoding of a satellite image to be used for a variety of downstream tasks.
 
-![](thumbnail.jpg)
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+<br>
+
+<b>Fig. 1 from Rolf et al: A generalizable approach to combining satellite imagery with machine learning (SIML) without users handling images.</b>
+![](ROLF_Fig1.webp)
+
+<br>
+
+In the years since we published this seminal work, this field has exploded in popularity and these vector representations of satellite images have become known as "earth embeddings." An excellent review of earth embeddings from Konstantin Klemmer, Esther Rolf, and others is available on <a href="https://eartharxiv.org/repository/view/11083/" target="_blank" rel="noopener noreferrer">EarthArXiv</a>.
+
+In 2025, Google's DeepMind released <a href="https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/" target="_blank" rel="noopener noreferrer">AlphaEarth Foundations</a>, a conceptually similar set of earth embeddings that are accessible via Earth Engine. 
+
+We anticipate that this field will continue to grow and we will use this blog to quickly provide updates on the field of earth embeddings, and related areas of research.

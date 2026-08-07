@@ -5,53 +5,85 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>mosaiks-blog</title>
-<link>https://your-website-url.example.com/</link>
-<atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
-<description>A blog built with Quarto</description>
+<title>The MOSAIKS Blog</title>
+<link>blog.mosaiks.org/</link>
+<atom:link href="blog.mosaiks.org/index.xml" rel="self" type="application/rss+xml"/>
+<description>A blog on earth embeddings, earth observations, and novel ways to use all those sensors pointed at our earth.</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Thu, 06 Aug 2026 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 07 Aug 2026 06:00:00 GMT</lastBuildDate>
 <item>
-  <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://your-website-url.example.com/posts/post-with-code/</link>
+  <title>Downscaling HDI with Satellite Imagery</title>
+  <dc:creator>Luke Sherman</dc:creator>
+  <link>blog.mosaiks.org/posts/hdi-downscaling/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p>This is a post with executable code.</p>
+<section id="improving-the-resolution-of-administrative-data-with-satellite-imagery" class="level2">
+<h2 class="anchored" data-anchor-id="improving-the-resolution-of-administrative-data-with-satellite-imagery">Improving the resolution of administrative data with satellite imagery</h2>
+<p>Recently, our team released <a href="https://www.nature.com/articles/s41467-026-68805-6" target="_blank" rel="noopener noreferrer">“Global high-resolution estimates of the UN Human Development Index using satellite imagery and machine learning</a>.” In this paper, we empirically validate the ability to use MOSAIKS and nighttime light (NL) features to increase the resolution of a coarse administrative dataset.</p>
+<p><br></p>
+<p><b>Fig. 1 from the paper: Aggregating satellite features tiles up to the province and municipality level.</b> <img src="blog.mosaiks.org/posts/hdi-downscaling/fig1.png" class="img-fluid"></p>
+<p><br></p>
+</section>
+<section id="training-coarse-predicting-fine" class="level2">
+<h2 class="anchored" data-anchor-id="training-coarse-predicting-fine">Training coarse, predicting fine</h2>
+<p>Most administrative data is available at only some highly aggregated level (provinces, districts, counties, etc) and those units can be both irregularly shaped and wildly different in size. In this paper, we show that be using vectorized representations of a satellite image (an earth embedding) we can represent an adminstrative polygon by averaging it’s feature values over space. This allows for large and irregularly shaped polygons to be represented by a single vector that contains much of the information in the satellite imagery for that polygon.</p>
+<p>Next we show that it’s possible to use that vector to estimate HDI and its componenents at the native (provincial/ADM1) resolution. Finally, we show that the model trained on provincial administrative imagery can be used to make estimates for finer (municiplaity/ADM2) administrative polygons.</p>
+<p>In this way, we demonstrate that satellite imagery can be used to train on arbitrarirly shaped and coarse resolution, but then have predictive efficacy at much finer resolution. you actually need.</p>
+<p>Think about a crime film, where an investigator take a fuzzy image and then “enhances it” to magically produce an image at better resolution. We show that using satellite image embeddings as an auxillary dataset, it’s possible to do this exact thing!</p>
+<p><br></p>
+</section>
+<section id="validating-our-efficacy" class="level2">
+<h2 class="anchored" data-anchor-id="validating-our-efficacy">Validating our efficacy</h2>
+<p>To test whether the province-trained model actually generalizes downward, we check its predictions against ground-truth municipal HDI in Mexico, Brazil, and Indonesia — three countries where municipal-level HDI data actually exists.</p>
+<p>For each county, we find that our model substantially improves the granularity of the provincial (ADM1) HDI data, even though it was only trained on data at this level. Specifically, we are able to explain 45-61% of country-relative municipal variation, and 20-53% of province-relative variation, the latter number purely describing the amount of increased granularity we achieve from the satellite image-based method. <br></p>
+<p><b>Fig. 2C-D from the paper: how well the province-trained model predicts municipal HDI for three countries.</b> <img src="blog.mosaiks.org/posts/hdi-downscaling/fig2cd.jpg" class="img-fluid"></p>
+<p><br></p>
+</section>
+<section id="an-hdi-dataset-at-municipal-adm2-resolution" class="level2">
+<h2 class="anchored" data-anchor-id="an-hdi-dataset-at-municipal-adm2-resolution">An HDI dataset at municipal (ADM2) resolution</h2>
+<p>The map below shows the coarse level of data that was used to train the model and the much finer resolution dataset that we are able to produce using the auxillary satellite imagery. Specifically, the top row shows HDI at provincial (ADM1) resolution, as computed directly from raw survey data by <a href="https://www.nature.com/articles/sdata201938" target="_blank" rel="noopener noreferrer">Smits and Permanyer</a>. The bottom row shows the finer-resolution global gridded dataset — about 819,000 tiles — that we produce in this research.</p>
+<p><br></p>
+<p><b>Province-level HDI (top) versus grid-level HDI at roughly 10km resolution (bottom).</b> <img src="blog.mosaiks.org/posts/hdi-downscaling/press_release_image_3zooms.jpg" class="img-fluid"></p>
 
 
+</section>
 
  ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://your-website-url.example.com/posts/post-with-code/</guid>
-  <pubDate>Thu, 06 Aug 2026 06:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <category>earth embeddings</category>
+  <category>downscaling</category>
+  <category>human development</category>
+  <category>RCF</category>
+  <guid>blog.mosaiks.org/posts/hdi-downscaling/</guid>
+  <pubDate>Fri, 07 Aug 2026 06:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <link>https://your-website-url.example.com/posts/welcome/</link>
+  <title>Welcome to The MOSAIKS Blog</title>
+  <dc:creator>Luke Sherman</dc:creator>
+  <link>blog.mosaiks.org/posts/welcome/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://your-website-url.example.com/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<p>In 2021, we published <a href="https://www.nature.com/articles/s41467-021-24638-z" target="_blank" rel="noopener noreferrer">a conceptually novel paper</a> explaining how satellite imagery can be represented in vector format where details around image structure are contained by a set of features. This allows for a one-time, task-agnostic encoding of a satellite image to be used for a variety of downstream tasks.</p>
+<p><br></p>
+<p><b>Fig. 1 from Rolf et al: A generalizable approach to combining satellite imagery with machine learning (SIML) without users handling images.</b> <img src="blog.mosaiks.org/posts/welcome/ROLF_Fig1.webp" class="img-fluid"></p>
+<p><br></p>
+<p>In the years since we published this seminal work, this field has exploded in popularity and these vector representations of satellite images have become known as “earth embeddings.” An excellent review of earth embeddings from Konstantin Klemmer, Esther Rolf, and others is available on <a href="https://eartharxiv.org/repository/view/11083/" target="_blank" rel="noopener noreferrer">EarthArXiv</a>.</p>
+<p>In 2025, Google’s DeepMind released <a href="https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/" target="_blank" rel="noopener noreferrer">AlphaEarth Foundations</a>, a conceptually similar set of earth embeddings that are accessible via Earth Engine.</p>
+<p>We anticipate that this field will continue to grow and we will use this blog to quickly provide updates on the field of earth embeddings, and related areas of research.</p>
 
 
 
  ]]></description>
-  <category>news</category>
-  <guid>https://your-website-url.example.com/posts/welcome/</guid>
+  <category>earth embeddings</category>
+  <category>RCF</category>
+  <guid>blog.mosaiks.org/posts/welcome/</guid>
   <pubDate>Mon, 03 Aug 2026 06:00:00 GMT</pubDate>
 </item>
 </channel>

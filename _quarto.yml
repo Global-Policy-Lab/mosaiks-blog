@@ -2,20 +2,22 @@ project:
   type: website
 
 website:
-  description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
-  title: "mosaiks-blog"
+  description: "A blog on earth embeddings, earth observations, and novel ways to use all those sensors pointed at our earth."
+  site-url: blog.mosaiks.org # you must change this appropriately for RSS feeds to work properly
+  title: "The MOSAIKS Blog"
+  favicon: favicon.png
   navbar:
     right:
-      - about.qmd
+      - text: "MOSAIKS.org"
+        icon: house
+        href: https://mosaiks.org
       - icon: github
-        href: https://github.com/
-      - icon: bluesky
-        href: https://bsky.app/
+        href: https://github.com/Global-Policy-Lab
+
 format:
   html:
     theme:
-      - cosmo
+      - simplex
       - brand
     css: styles.css
 

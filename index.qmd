@@ -1,5 +1,4 @@
 ---
-title: "mosaiks-blog"
 listing:
   contents: posts
   feed: true
@@ -9,7 +8,7 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: true
+title-block-banner: false
 ---
 
-
+![](banner.jpg){.home-banner}

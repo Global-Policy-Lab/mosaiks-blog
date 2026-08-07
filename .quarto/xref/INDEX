@@ -10,5 +10,8 @@
   },
   "about.qmd": {
     "about.html": "304462e8"
+  },
+  "posts/hdi-downscaling/index.qmd": {
+    "index.html": "8baa322a"
   }
 }

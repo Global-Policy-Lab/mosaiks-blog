@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The MOSAIKS Blog",
     "section": "",
-    "text": "This blog is operated as part of a cross-campus collaboration of researchers using satellite imagery to better understand our planet. See MOSAIKS.org for more information."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome to The MOSAIKS Blog",
-    "section": "",
-    "text": "In 2021, we published a conceptually novel paper explaining how satellite imagery can be represented in vector format where details around image structure are contained by a set of features. This allows for a one-time, task-agnostic encoding of a satellite image to be used for a variety of downstream tasks.\n\nFig. 1 from Rolf et al: A generalizable approach to combining satellite imagery with machine learning (SIML) without users handling images. \n\nIn the years since we published this seminal work, this field has exploded in popularity and these vector representations of satellite images have become known as “earth embeddings.” An excellent review of earth embeddings from Konstantin Klemmer, Esther Rolf, and others is available on EarthArXiv.\nIn 2025, Google’s DeepMind released AlphaEarth Foundations, a conceptually similar set of earth embeddings that are accessible via Earth Engine.\nWe anticipate that this field will continue to grow and we will use this blog to quickly provide updates on the field of earth embeddings, and related areas of research."
+    "text": "Downscaling HDI with Satellite Imagery\n\n\n\nearth embeddings\n\ndownscaling\n\nhuman development\n\nRCF\n\n\n\n\n\n\n\n\n\nAug 7, 2026\n\n\nLuke Sherman\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to The MOSAIKS Blog\n\n\n\nearth embeddings\n\nRCF\n\n\n\n\n\n\n\n\n\nAug 3, 2026\n\n\nLuke Sherman\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/hdi-downscaling/index.html",
@@ -49,10 +42,10 @@
     "text": "An HDI dataset at municipal (ADM2) resolution\nThe map below shows the coarse level of data that was used to train the model and the much finer resolution dataset that we are able to produce using the auxillary satellite imagery. Specifically, the top row shows HDI at provincial (ADM1) resolution, as computed directly from raw survey data by Smits and Permanyer. The bottom row shows the finer-resolution global gridded dataset — about 819,000 tiles — that we produce in this research.\n\nProvince-level HDI (top) versus grid-level HDI at roughly 10km resolution (bottom)."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The MOSAIKS Blog",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome to The MOSAIKS Blog",
     "section": "",
-    "text": "Downscaling HDI with Satellite Imagery\n\n\n\nearth embeddings\n\ndownscaling\n\nhuman development\n\nRCF\n\n\n\n\n\n\n\n\n\nAug 7, 2026\n\n\nLuke Sherman\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to The MOSAIKS Blog\n\n\n\nearth embeddings\n\nRCF\n\n\n\n\n\n\n\n\n\nAug 3, 2026\n\n\nLuke Sherman\n\n\n\n\n\nNo matching items"
+    "text": "In 2021, we published a conceptually novel paper explaining how satellite imagery can be represented in vector format where details around image structure are contained by a set of features. This allows for a one-time, task-agnostic encoding of a satellite image to be used for a variety of downstream tasks.\n\nFig. 1 from Rolf et al: A generalizable approach to combining satellite imagery with machine learning (SIML) without users handling images. \n\nIn the years since we published this seminal work, this field has exploded in popularity and these vector representations of satellite images have become known as “earth embeddings.” An excellent review of earth embeddings from Konstantin Klemmer, Esther Rolf, and others is available on EarthArXiv.\nIn 2025, Google’s DeepMind released AlphaEarth Foundations, a conceptually similar set of earth embeddings that are accessible via Earth Engine.\nWe anticipate that this field will continue to grow and we will use this blog to quickly provide updates on the field of earth embeddings, and related areas of research."
   }
 ]

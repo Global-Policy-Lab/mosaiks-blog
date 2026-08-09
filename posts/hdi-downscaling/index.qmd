@@ -1,6 +1,11 @@
 ---
 title: "Downscaling HDI with Satellite Imagery"
-author: "Luke Sherman"
+author:
+  - name: "Luke Sherman"
+    url: "https://www.globalpolicy.science/luke-sherman"
+    email: "lsherm@stanford.edu"
+    affiliations: 
+    - name: "Global Policy Lab | Stanford"
 date: "2026-08-07"
 categories: [earth embeddings, downscaling, human development, RCF]
 ---

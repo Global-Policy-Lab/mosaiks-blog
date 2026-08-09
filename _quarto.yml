@@ -3,7 +3,7 @@ project:
 
 website:
   description: "A blog on earth embeddings, earth observations, and novel ways to use all those sensors pointed at our earth."
-  site-url: blog.mosaiks.org # you must change this appropriately for RSS feeds to work properly
+  site-url: https://blog.mosaiks.org # you must change this appropriately for RSS feeds to work properly
   title: "The MOSAIKS Blog"
   favicon: favicon.png
   navbar:

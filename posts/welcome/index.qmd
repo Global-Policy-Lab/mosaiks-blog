@@ -1,6 +1,11 @@
 ---
 title: "Welcome to The MOSAIKS Blog"
-author: "Luke Sherman"
+author:
+  - name: "Luke Sherman"
+    url: "https://www.globalpolicy.science/luke-sherman"
+    email: "lsherm@stanford.edu"
+    affiliations: 
+    - name: "Global Policy Lab | Stanford"
 date: "2026-08-03"
 categories: [earth embeddings, RCF]
 ---

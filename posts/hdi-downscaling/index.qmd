@@ -18,7 +18,7 @@ Recently, our team released <a href="https://www.nature.com/articles/s41467-026-
 <br>
 
 <b>Fig. 1 from the paper: Aggregating satellite features tiles up to the province and municipality level.</b>
-![](fig1.png)
+![](fig1.jpg)
 
 <br>
 

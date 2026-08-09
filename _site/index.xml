@@ -25,7 +25,7 @@
 <h2 class="anchored" data-anchor-id="improving-the-resolution-of-administrative-data-with-satellite-imagery">Improving the resolution of administrative data with satellite imagery</h2>
 <p>Recently, our team released <a href="https://www.nature.com/articles/s41467-026-68805-6" target="_blank" rel="noopener noreferrer">“Global high-resolution estimates of the UN Human Development Index using satellite imagery and machine learning</a>.” In this paper, we empirically validate the ability to use MOSAIKS and nighttime light (NL) features to increase the resolution of a coarse administrative dataset.</p>
 <p><br></p>
-<p><b>Fig. 1 from the paper: Aggregating satellite features tiles up to the province and municipality level.</b> <img src="https://blog.mosaiks.org/posts/hdi-downscaling/fig1.png" class="img-fluid"></p>
+<p><b>Fig. 1 from the paper: Aggregating satellite features tiles up to the province and municipality level.</b> <img src="https://blog.mosaiks.org/posts/hdi-downscaling/fig1.jpg" class="img-fluid"></p>
 <p><br></p>
 </section>
 <section id="training-coarse-predicting-fine" class="level2">

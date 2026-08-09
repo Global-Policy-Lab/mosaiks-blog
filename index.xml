@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>The MOSAIKS Blog</title>
-<link>blog.mosaiks.org/</link>
-<atom:link href="blog.mosaiks.org/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://blog.mosaiks.org/</link>
+<atom:link href="https://blog.mosaiks.org/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog on earth embeddings, earth observations, and novel ways to use all those sensors pointed at our earth.</description>
 <generator>quarto-1.10.18</generator>
 <lastBuildDate>Fri, 07 Aug 2026 06:00:00 GMT</lastBuildDate>
 <item>
   <title>Downscaling HDI with Satellite Imagery</title>
   <dc:creator>Luke Sherman</dc:creator>
-  <link>blog.mosaiks.org/posts/hdi-downscaling/</link>
+  <link>https://blog.mosaiks.org/posts/hdi-downscaling/</link>
   <description><![CDATA[ 
 
 
@@ -25,7 +25,7 @@
 <h2 class="anchored" data-anchor-id="improving-the-resolution-of-administrative-data-with-satellite-imagery">Improving the resolution of administrative data with satellite imagery</h2>
 <p>Recently, our team released <a href="https://www.nature.com/articles/s41467-026-68805-6" target="_blank" rel="noopener noreferrer">“Global high-resolution estimates of the UN Human Development Index using satellite imagery and machine learning</a>.” In this paper, we empirically validate the ability to use MOSAIKS and nighttime light (NL) features to increase the resolution of a coarse administrative dataset.</p>
 <p><br></p>
-<p><b>Fig. 1 from the paper: Aggregating satellite features tiles up to the province and municipality level.</b> <img src="blog.mosaiks.org/posts/hdi-downscaling/fig1.png" class="img-fluid"></p>
+<p><b>Fig. 1 from the paper: Aggregating satellite features tiles up to the province and municipality level.</b> <img src="https://blog.mosaiks.org/posts/hdi-downscaling/fig1.png" class="img-fluid"></p>
 <p><br></p>
 </section>
 <section id="training-coarse-predicting-fine" class="level2">
@@ -40,14 +40,14 @@
 <h2 class="anchored" data-anchor-id="validating-our-efficacy">Validating our efficacy</h2>
 <p>To test whether the province-trained model actually generalizes downward, we check its predictions against ground-truth municipal HDI in Mexico, Brazil, and Indonesia — three countries where municipal-level HDI data actually exists.</p>
 <p>For each county, we find that our model substantially improves the granularity of the provincial (ADM1) HDI data, even though it was only trained on data at this level. Specifically, we are able to explain 45-61% of country-relative municipal variation, and 20-53% of province-relative variation, the latter number purely describing the amount of increased granularity we achieve from the satellite image-based method. <br></p>
-<p><b>Fig. 2C-D from the paper: how well the province-trained model predicts municipal HDI for three countries.</b> <img src="blog.mosaiks.org/posts/hdi-downscaling/fig2cd.jpg" class="img-fluid"></p>
+<p><b>Fig. 2C-D from the paper: how well the province-trained model predicts municipal HDI for three countries.</b> <img src="https://blog.mosaiks.org/posts/hdi-downscaling/fig2cd.jpg" class="img-fluid"></p>
 <p><br></p>
 </section>
 <section id="an-hdi-dataset-at-municipal-adm2-resolution" class="level2">
 <h2 class="anchored" data-anchor-id="an-hdi-dataset-at-municipal-adm2-resolution">An HDI dataset at municipal (ADM2) resolution</h2>
 <p>The map below shows the coarse level of data that was used to train the model and the much finer resolution dataset that we are able to produce using the auxillary satellite imagery. Specifically, the top row shows HDI at provincial (ADM1) resolution, as computed directly from raw survey data by <a href="https://www.nature.com/articles/sdata201938" target="_blank" rel="noopener noreferrer">Smits and Permanyer</a>. The bottom row shows the finer-resolution global gridded dataset — about 819,000 tiles — that we produce in this research.</p>
 <p><br></p>
-<p><b>Province-level HDI (top) versus grid-level HDI at roughly 10km resolution (bottom).</b> <img src="blog.mosaiks.org/posts/hdi-downscaling/press_release_image_3zooms.jpg" class="img-fluid"></p>
+<p><b>Province-level HDI (top) versus grid-level HDI at roughly 10km resolution (bottom).</b> <img src="https://blog.mosaiks.org/posts/hdi-downscaling/press_release_image_3zooms.jpg" class="img-fluid"></p>
 
 
 </section>
@@ -57,13 +57,13 @@
   <category>downscaling</category>
   <category>human development</category>
   <category>RCF</category>
-  <guid>blog.mosaiks.org/posts/hdi-downscaling/</guid>
+  <guid>https://blog.mosaiks.org/posts/hdi-downscaling/</guid>
   <pubDate>Fri, 07 Aug 2026 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome to The MOSAIKS Blog</title>
   <dc:creator>Luke Sherman</dc:creator>
-  <link>blog.mosaiks.org/posts/welcome/</link>
+  <link>https://blog.mosaiks.org/posts/welcome/</link>
   <description><![CDATA[ 
 
 
@@ -72,7 +72,7 @@
 
 <p>In 2021, we published <a href="https://www.nature.com/articles/s41467-021-24638-z" target="_blank" rel="noopener noreferrer">a conceptually novel paper</a> explaining how satellite imagery can be represented in vector format where details around image structure are contained by a set of features. This allows for a one-time, task-agnostic encoding of a satellite image to be used for a variety of downstream tasks.</p>
 <p><br></p>
-<p><b>Fig. 1 from Rolf et al: A generalizable approach to combining satellite imagery with machine learning (SIML) without users handling images.</b> <img src="blog.mosaiks.org/posts/welcome/ROLF_Fig1.webp" class="img-fluid"></p>
+<p><b>Fig. 1 from Rolf et al: A generalizable approach to combining satellite imagery with machine learning (SIML) without users handling images.</b> <img src="https://blog.mosaiks.org/posts/welcome/ROLF_Fig1.webp" class="img-fluid"></p>
 <p><br></p>
 <p>In the years since we published this seminal work, this field has exploded in popularity and these vector representations of satellite images have become known as “earth embeddings.” An excellent review of earth embeddings from Konstantin Klemmer, Esther Rolf, and others is available on <a href="https://eartharxiv.org/repository/view/11083/" target="_blank" rel="noopener noreferrer">EarthArXiv</a>.</p>
 <p>In 2025, Google’s DeepMind released <a href="https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/" target="_blank" rel="noopener noreferrer">AlphaEarth Foundations</a>, a conceptually similar set of earth embeddings that are accessible via Earth Engine.</p>
@@ -83,7 +83,7 @@
  ]]></description>
   <category>earth embeddings</category>
   <category>RCF</category>
-  <guid>blog.mosaiks.org/posts/welcome/</guid>
+  <guid>https://blog.mosaiks.org/posts/welcome/</guid>
   <pubDate>Mon, 03 Aug 2026 06:00:00 GMT</pubDate>
 </item>
 </channel>

@@ -99,6 +99,10 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
+    <a class="nav-link active" href="../../posts/welcome/index.html" aria-current="page"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="https://mosaiks.org"> <i class="bi bi-house" role="img">
 </i> 
 <span class="menu-text">MOSAIKS.org</span></a>
@@ -166,15 +170,19 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>In 2021, we published <a href="https://www.nature.com/articles/s41467-021-24638-z" target="_blank" rel="noopener noreferrer">a conceptually novel paper</a> explaining how satellite imagery can be represented in vector format where details around image structure are contained by a set of features. This allows for a one-time, task-agnostic encoding of a satellite image to be used for a variety of downstream tasks.</p>
+<section id="the-state-of-earth-embeddings" class="level2">
+<h2 class="anchored" data-anchor-id="the-state-of-earth-embeddings">The state of “earth embeddings”</h2>
+<p>In 2021, we published <a href="https://www.nature.com/articles/s41467-021-24638-z" target="_blank" rel="noopener noreferrer">a conceptually novel paper</a> explaining how satellite imagery can be represented in vector format, where information about image structure and content is contained by a set of numerical features. We show that a one-time, task-agnostic encoding of a satellite image can be used for a variety of downstream tasks.</p>
 <p><br></p>
 <p><b>Fig. 1 from Rolf et al: A generalizable approach to combining satellite imagery with machine learning (SIML) without users handling images.</b> <img src="ROLF_Fig1.webp" class="img-fluid"></p>
 <p><br></p>
-<p>In the years since we published this seminal work, this field has exploded in popularity and these vector representations of satellite images have become known as “earth embeddings.” An excellent review of earth embeddings from Konstantin Klemmer, Esther Rolf, and others is available on <a href="https://eartharxiv.org/repository/view/11083/" target="_blank" rel="noopener noreferrer">EarthArXiv</a>.</p>
-<p>In 2025, Google’s DeepMind released <a href="https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/" target="_blank" rel="noopener noreferrer">AlphaEarth Foundations</a>, a conceptually similar set of earth embeddings that are accessible via Earth Engine.</p>
-<p>We anticipate that this field will continue to grow and we will use this blog to quickly provide updates on the field of earth embeddings, and related areas of research.</p>
+<p>In <a href="https://www.nber.org/papers/w34315" target="_blank" rel="noopener noreferrer">later research</a>, our author group demonstrated that this single feature encoding of a global image of the earth can be used to estimate, with considerable efficacy, over one hundred ground-truth variables across the globe: from income to crop yields, and even things like child mortality.</p>
+<p>In recent years, this field has exploded in popularity and these vector representations of satellite images have become known as “earth embeddings.” An excellent review of earth embeddings from Konstantin Klemmer, Esther Rolf, and others is available on <a href="https://eartharxiv.org/repository/view/11083/" target="_blank" rel="noopener noreferrer">EarthArXiv</a>. We recommend this paper as a starting point for anyone seeking to better understand this field and the current state of the literature.</p>
+<p>In 2025, Google’s DeepMind released <a href="https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/" target="_blank" rel="noopener noreferrer">AlphaEarth Foundations</a>, a set of earth embeddings, conceptually similar to what we called MOSAIKS, that is accessible via Earth Engine.</p>
+<p>We anticipate that the earth embeddings research field will continue to grow rapidly. Because publishing research papers can be a long process, we aim to use this blog as a vehicle to quickly communicate the things we learn in the research process to interested stakeholders. We hope that through The MOSAIKS Blog, we can keep the research and policy communities up-to-date on the state of the field as it continues to expand.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

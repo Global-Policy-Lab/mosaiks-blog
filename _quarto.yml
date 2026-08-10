@@ -8,6 +8,8 @@ website:
   favicon: favicon.png
   navbar:
     right:
+      - text: "About"
+        href: posts/welcome/index.qmd
       - text: "MOSAIKS.org"
         icon: house
         href: https://mosaiks.org

@@ -4,10 +4,11 @@ Source for [The MOSAIKS Blog](https://blog.mosaiks.org), a [Quarto](https://quar
 
 ## Future ideas
 
-A list of possible additions to consider for later — nothing here is planned or in progress.
+A list of possible additions to consider:
 
 **Content discovery / reach**
-- **Email/newsletter signup** — since this is a static GitHub Pages site with no backend, this means embedding a third-party service rather than building one. Common options: Buttondown (simple, RSS-to-email built in), ConvertKit, Substack, Mailchimp embed form. Buttondown is the easiest fit since it can auto-send from the existing RSS feed with minimal setup.
+- **Email/newsletter signup** — since this is a static GitHub Pages site with no backend, this means embedding a third-party service rather than building one. Common options: Buttondown (simple, RSS-to-email built in), ConvertKit, Substack, Mailchimp embed form. Mailchimp is covered in the Quarto documentation.
+
 - **Social share previews (Open Graph / Twitter card tags)** — without these, links to posts shared on Slack/Twitter/LinkedIn show no image/description. Quarto supports this via a few `_quarto.yml`/front-matter fields (e.g. `image`, `twitter-card`, `open-graph`).
 - **Analytics** — currently none configured. Options range from privacy-friendly/no-cookie-banner-needed (Plausible, GoatCounter, Fathom) to the free-but-heavier Google Analytics.
 

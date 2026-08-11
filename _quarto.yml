@@ -13,8 +13,8 @@ website:
       - text: "MOSAIKS.org"
         icon: house
         href: https://mosaiks.org
-      - icon: github
-        href: https://github.com/Global-Policy-Lab
+      #- icon: github
+        # href: https://github.com/Global-Policy-Lab
 
 format:
   html:

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.mosaiks.org/index.html</loc>
-    <lastmod>2026-08-10T17:48:30.707Z</lastmod>
+    <loc>https://blog.mosaiks.org/subscribe-placeholder.html</loc>
+    <lastmod>2026-08-13T19:30:42.297Z</lastmod>
   </url>
   <url>
     <loc>https://blog.mosaiks.org/posts/hdi-downscaling/index.html</loc>
@@ -11,5 +11,9 @@
   <url>
     <loc>https://blog.mosaiks.org/posts/welcome/index.html</loc>
     <lastmod>2026-08-10T18:24:43.345Z</lastmod>
+  </url>
+  <url>
+    <loc>https://blog.mosaiks.org/index.html</loc>
+    <lastmod>2026-08-13T19:32:13.391Z</lastmod>
   </url>
 </urlset>

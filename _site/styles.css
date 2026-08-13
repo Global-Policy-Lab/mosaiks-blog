@@ -1,5 +1,9 @@
 /* css styles */
 
 .home-banner {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+
+.margin-header-item {
+  margin-bottom: 2rem;
 }

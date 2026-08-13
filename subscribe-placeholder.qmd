@@ -1,0 +1,15 @@
+---
+title: "Coming soon"
+page-layout: full
+title-block-banner: false
+---
+
+::: {style="text-align: center; padding: 4rem 0;"}
+
+## Email sign-ups are coming soon
+
+The subscribe button is just a placeholder for now. Email sign-ups will be available soon.
+
+[Back to the blog](/)
+
+:::

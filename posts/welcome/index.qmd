@@ -8,6 +8,7 @@ author:
     - name: "Global Policy Lab | Stanford"
 date: "2026-08-03"
 categories: [earth embeddings, RCF]
+image: ROLF_Fig1.webp
 ---
 
 ## The state of "earth embeddings"

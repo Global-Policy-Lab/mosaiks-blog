@@ -9,6 +9,13 @@
 <link>https://blog.mosaiks.org/</link>
 <atom:link href="https://blog.mosaiks.org/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog on earth embeddings, earth observations, and novel ways to use all those sensors pointed at our earth.</description>
+<image>
+<url>https://blog.mosaiks.org/banner.png</url>
+<title>The MOSAIKS Blog</title>
+<link>https://blog.mosaiks.org/</link>
+<height>72</height>
+<width>144</width>
+</image>
 <generator>quarto-1.10.18</generator>
 <lastBuildDate>Fri, 07 Aug 2026 06:00:00 GMT</lastBuildDate>
 <item>
@@ -59,6 +66,7 @@
   <category>RCF</category>
   <guid>https://blog.mosaiks.org/posts/hdi-downscaling/</guid>
   <pubDate>Fri, 07 Aug 2026 06:00:00 GMT</pubDate>
+  <media:content url="https://blog.mosaiks.org/posts/hdi-downscaling/fig1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Welcome to The MOSAIKS Blog</title>
@@ -89,6 +97,7 @@
   <category>RCF</category>
   <guid>https://blog.mosaiks.org/posts/welcome/</guid>
   <pubDate>Mon, 03 Aug 2026 06:00:00 GMT</pubDate>
+  <media:content url="https://blog.mosaiks.org/posts/welcome/ROLF_Fig1.webp" medium="image" type="image/webp"/>
 </item>
 </channel>
 </rss>

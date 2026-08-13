@@ -6,6 +6,10 @@ website:
   site-url: https://blog.mosaiks.org # you must change this appropriately for RSS feeds to work properly
   title: "The MOSAIKS Blog"
   favicon: favicon.png
+  open-graph: true
+  twitter-card:
+    card-style: summary_large_image
+  image: banner.png
   navbar:
     right:
       - text: "About"

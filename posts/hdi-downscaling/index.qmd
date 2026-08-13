@@ -8,6 +8,7 @@ author:
     - name: "Global Policy Lab | Stanford"
 date: "2026-08-07"
 categories: [earth embeddings, downscaling, human development, RCF]
+image: fig1.jpg
 ---
 
 ## Improving the resolution of administrative data with satellite imagery

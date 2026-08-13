@@ -9,7 +9,6 @@ A list of possible additions to consider:
 **Content discovery / reach**
 - **Email/newsletter signup** — the homepage has a Mailchimp-style subscribe widget (`subscribe.html`), but it's a placeholder: the form isn't wired to a real Mailchimp (or other) list yet, so submitting just links to `subscribe-placeholder.qmd`, a page noting that signups aren't live yet. Since this is a static GitHub Pages site with no backend, going live means embedding a real third-party service rather than building one. Common options: Buttondown (simple, RSS-to-email built in), ConvertKit, Substack, Mailchimp embed form. Mailchimp is covered in the Quarto documentation.
 
-- **Social share previews (Open Graph / Twitter card tags)** — without these, links to posts shared on Slack/Twitter/LinkedIn show no image/description. Quarto supports this via a few `_quarto.yml`/front-matter fields (e.g. `image`, `twitter-card`, `open-graph`).
 - **Analytics** — currently none configured. Options range from privacy-friendly/no-cookie-banner-needed (Plausible, GoatCounter, Fathom) to the free-but-heavier Google Analytics.
 
 **Engagement**

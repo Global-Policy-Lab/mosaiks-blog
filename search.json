@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The MOSAIKS Blog",
+    "objectID": "subscribe-placeholder.html",
+    "href": "subscribe-placeholder.html",
+    "title": "Coming soon",
     "section": "",
-    "text": "Downscaling HDI with Satellite Imagery\n\n\n\nearth embeddings\n\ndownscaling\n\nhuman development\n\nRCF\n\n\n\n\n\n\n\n\n\nAug 7, 2026\n\n\nLuke Sherman\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to The MOSAIKS Blog\n\n\n\nearth embeddings\n\nRCF\n\n\n\n\n\n\n\n\n\nAug 3, 2026\n\n\nLuke Sherman\n\n\n\n\n\nNo matching items"
+    "text": "The subscribe button is just a placeholder for now. Email sign-ups will be available soon.\nBack to the blog"
+  },
+  {
+    "objectID": "subscribe-placeholder.html#email-sign-ups-are-coming-soon",
+    "href": "subscribe-placeholder.html#email-sign-ups-are-coming-soon",
+    "title": "Coming soon",
+    "section": "",
+    "text": "The subscribe button is just a placeholder for now. Email sign-ups will be available soon.\nBack to the blog"
   },
   {
     "objectID": "posts/hdi-downscaling/index.html",
@@ -54,5 +61,12 @@
     "title": "Welcome to The MOSAIKS Blog",
     "section": "",
     "text": "In 2021, we published a conceptually novel paper explaining how satellite imagery can be represented in vector format, where information about image structure and content is contained by a set of numerical features. We show that a one-time, task-agnostic encoding of a satellite image can be used for a variety of downstream tasks.\n\nFig. 1 from Rolf et al: A generalizable approach to combining satellite imagery with machine learning (SIML) without users handling images. \n\nIn later research, our author group demonstrated that this single feature encoding of a global image of the earth can be used to estimate, with considerable efficacy, over one hundred ground-truth variables across the globe: from income to crop yields, and even things like child mortality.\nIn recent years, this field has exploded in popularity and these vector representations of satellite images have become known as “earth embeddings.” An excellent review of earth embeddings from Konstantin Klemmer, Esther Rolf, and others is available on EarthArXiv. We recommend this paper as a starting point for anyone seeking to better understand this field and the current state of the literature.\nIn 2025, Google’s DeepMind released AlphaEarth Foundations, a set of earth embeddings, conceptually similar to what we called MOSAIKS, that is accessible via Earth Engine.\nWe anticipate that the earth embeddings research field will continue to grow rapidly. Because publishing research papers can be a long process, we aim to use this blog as a vehicle to quickly communicate the things we learn in the research process to interested stakeholders. We hope that through The MOSAIKS Blog, we can keep the research and policy communities up-to-date on the state of the field as it continues to expand."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The MOSAIKS Blog",
+    "section": "",
+    "text": "Downscaling HDI with Satellite Imagery\n\n\n\nearth embeddings\n\ndownscaling\n\nhuman development\n\nRCF\n\n\n\n\n\n\n\n\n\nAug 7, 2026\n\n\nLuke Sherman\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to The MOSAIKS Blog\n\n\n\nearth embeddings\n\nRCF\n\n\n\n\n\n\n\n\n\nAug 3, 2026\n\n\nLuke Sherman\n\n\n\n\n\nNo matching items"
   }
 ]

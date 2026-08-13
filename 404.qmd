@@ -1,0 +1,15 @@
+---
+title: "Page not found"
+page-layout: full
+title-block-banner: false
+---
+
+::: {style="text-align: center; padding: 4rem 0;"}
+
+## 404 — this page didn't make it into the orbit path
+
+The page you're looking for doesn't exist, or has moved.
+
+[Back to the blog](/) &nbsp;·&nbsp; [About](/posts/welcome/index.html) &nbsp;·&nbsp; [MOSAIKS.org](https://mosaiks.org)
+
+:::

@@ -17,7 +17,6 @@ A list of possible additions to consider:
 - **Author info per post** — bylines already show name/date; could add short author bios/photos, especially as more authors post.
 
 **Polish / correctness**
-- **Custom 404 page** — Quarto supports a `404.qmd`; without one, GitHub Pages shows its generic 404.
 - **License / citation info** — a short footer note or `LICENSE` file, useful since this blog discusses published research (how to cite posts, reuse of figures, etc.).
 - **Accessibility pass** — alt text on images, color contrast check on the custom banner/theme colors.
 - **Performance** — compress any large images in post folders to speed up page loads.

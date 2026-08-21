@@ -27,7 +27,7 @@ Recently, my coauthors and I released <a href="https://www.nature.com/articles/s
 
 ## Training coarse, predicting fine
 
-Most administrative data is available at only some highly aggregated level (e.g., provincial, district, or county level) and those units can be both irregularly shaped and wildly different in size. In this paper, we show that by using vectorized representations of a satellite image (an earth embedding) we can represent an arbitrarily shaped administrative polygon by averaging its feature values over space. This allows for large and irregularly shaped polygons to be represented by a single vector that contains much of the information in the satellite imagery for that polygon.
+Most administrative data is available at only some highly aggregated level (e.g., provincial, district, or county level) and those units can be both irregularly shaped and wildly different in size. In this paper, we show that by using vectorized representations of a satellite image (an Earth Embedding) we can represent an arbitrarily shaped administrative polygon by averaging its feature values over space. This allows for large and irregularly shaped polygons to be represented by a single vector that contains much of the information in the satellite imagery for that polygon.
 
 Next we show that it's possible to use that vector to estimate HDI and its components at the native (provincial/ADM1) resolution. Finally, we show that the model trained on provincial administrative imagery can be used to make estimates for finer (municipality/ADM2) administrative polygons. 
 

@@ -25,7 +25,7 @@ In 2021, the MOSAIKS team published <a href="https://www.nature.com/articles/s41
 
 <br>
 
-In <a href="https://www.nber.org/papers/w34315" target="_blank" rel="noopener noreferrer">later research</a>, our author group demonstrated that this single feature encoding of a global image of the Earth can be used to estimate, with considerable efficacy, over one hundred ground-truth variables across the globe: from income to crop yields, and even things like child mortality.
+In <a href="https://www.nber.org/papers/w34315" target="_blank" rel="noopener noreferrer">later research</a>, my MOSAIKS coauthors and I demonstrated that this single feature encoding of a global image of the Earth can be used to estimate, with considerable efficacy, over one hundred ground-truth variables across the globe: from income to crop yields, and even things like child mortality.
 
 In recent years, this field has exploded in popularity and these vector representations of satellite images have become known as "Earth Embeddings." Konstantin Klemmer, Esther Rolf, and others have written an excellent review of this field called <a href="https://ieeexplore.ieee.org/document/11636001" target="_blank" rel="noopener noreferrer">Earth Embeddings: Toward artificial intelligence-centric representations of our planet</a>. I recommend this paper as a starting point for anyone seeking to better understand this field and the current state of the literature.
 

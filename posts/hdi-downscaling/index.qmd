@@ -4,7 +4,8 @@ author:
   - name: "Luke Sherman"
     url: "https://www.globalpolicy.science/luke-sherman"
     email: "lsherm@stanford.edu"
-    affiliations: 
+    image: "/images/authors/luke-sherman.jpg"
+    affiliations:
     - name: "Global Policy Lab | Stanford"
 date: "2026-08-07"
 date-modified: "2026-08-20"

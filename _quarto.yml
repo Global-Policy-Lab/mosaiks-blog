@@ -26,6 +26,8 @@ format:
       - simplex
       - brand
     css: styles.css
+    template-partials:
+      - _title-meta-author.html
 
 
 

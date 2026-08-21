@@ -7,3 +7,12 @@
 .margin-header-item {
   margin-bottom: 2rem;
 }
+
+.author-headshot {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}

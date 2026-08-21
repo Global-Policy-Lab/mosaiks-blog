@@ -7,13 +7,14 @@ author:
     affiliations: 
     - name: "Global Policy Lab | Stanford"
 date: "2026-08-07"
+date-modified: "2026-08-20"
 categories: [earth embeddings, downscaling, human development, RCF]
 image: fig1.jpg
 ---
 
 ## Improving the resolution of administrative data with satellite imagery
 
-Recently, our team released <a href="https://www.nature.com/articles/s41467-026-68805-6" target="_blank" rel="noopener noreferrer">“Global high-resolution estimates of the UN Human Development Index using satellite imagery and machine learning”</a>. In this paper, we empirically validate the ability to use MOSAIKS and nighttime light (NL) features to increase the resolution of a coarse administrative dataset. 
+Recently, my coauthors and I released <a href="https://www.nature.com/articles/s41467-026-68805-6" target="_blank" rel="noopener noreferrer">“Global high-resolution estimates of the UN Human Development Index using satellite imagery and machine learning”</a>. In this paper, we empirically validate the ability to use MOSAIKS and nighttime light (NL) features to increase the resolution of a coarse administrative dataset. 
 
 
 <br>
@@ -31,7 +32,7 @@ Next we show that it's possible to use that vector to estimate HDI and its compo
 
 In this way, we demonstrate that satellite imagery can be used to train on arbitrarily shaped and coarse resolution, but then have predictive efficacy at much finer resolution.
 
-We like to think about a crime film, where an investigator takes a fuzzy security camera image and then "enhances it" to magically produce an image at better resolution (where the criminal's face is often now visible). We show that by using satellite image embeddings as an auxiliary dataset, it's possible to do this exact thing with administrative datasets!
+I like to think about a crime film, where an investigator takes a fuzzy security camera image and then "enhances it" to magically produce an image at better resolution (where the criminal's face is often now visible). We show that by using satellite image embeddings as an auxiliary dataset, it's possible to do this exact thing with administrative datasets!
 
 <br>
 
